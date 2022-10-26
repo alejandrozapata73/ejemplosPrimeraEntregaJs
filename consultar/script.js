@@ -7,13 +7,13 @@ function consultarArticulo () {
         var opcion = prompt("INGRESE EL NUMERO DEL ARTICULO QUE DESEA COMPRAR: \n 1) REMERA \n 2) PANTALON \n 3) ZAPATILLA \n 4-salir");
 
         if (opcion == 1) {
-            opcion = "REMERA";
+            alert("remera")
         }
         else if (opcion == 2) {
-            opcion = "PANTALON";
+            alert("pantalon")
         }
         else if (opcion == 3) {
-            opcion = "ZAPATILLA";
+            alert("zapatilla")
         }else if(opcion==4){
             console.log("salir")
         }
