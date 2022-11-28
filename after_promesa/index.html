@@ -4,10 +4,7 @@
     <meta charset="utf-8">
     <title>#45555</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
   <body>
 
@@ -28,48 +25,30 @@
       <p class="description_container" id="description">Breve descripción.</p>
 
       <!-- Formulario -->
-     
+      <form id='formulario-elementos'>
          <div class="form-group">
            <input type="text" class="form-control" id="title-form" placeholder="Título">
          </div>
 
          
-        
+         <div class="form-group">
            <input type="text" class="form-control" id="description-form" placeholder="Descripción">
            <small id="descriptionHelp" class="form-text text-muted">Escribe una breve descripción.</small>
          </div>
 
          <button type="submit" id="create-course" class="btn btn-info">Crear curso</button>
-
-         <button type="submit" id="btn2" class="btn btn-info">Swet alert</button>
-
-         <button type="submit" id="btn3" class="btn btn-info">Toasty</button>
-      
+      </form>
       <!-- Fin Formulario -->
 
       <!--ShopConten-->
 
       <div id="shopContent"></div>
 
-      <div>
-      https://sweetalert2.github.io/#download
-    </div>
-    <div>
-      https://apvarun.github.io/toastify-js/
-    </div>
-
-    <div>
-      https://moment.github.io/luxon/#/tour
-    </div>
     </div>
 
     <!--contenedor Carrito-->
 
-    <div class="card" style="width: 18rem;" id="contentCarrito">
-    
-      Carrito
-
-    </div>
+    <div id="contentCarrito"></div>
 
     <!-- div vacio -->
     <div id="fila-vacia">
@@ -87,19 +66,12 @@
       </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script> -->
-
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-   
-     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-      -->
-
-     <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js"></script>
 
 
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js"></script> 
     <script type="text/javascript" src="script.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   </body>
   
 
