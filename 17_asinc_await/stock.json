@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nombre": "sandia",
+    "precio": 400
+  },
+  {
+    "id": 2,
+    "nombre": "papa",
+    "precio": 300
+  },
+  {
+    "id": 3,
+    "nombre": "tomate",
+    "precio": 900
+  },
+  {
+    "id": 4,
+    "nombre": "lechuga",
+    "precio": 321
+  }
+]
